@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage | Profila</title>
+  <!-- Bootstrap and all -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <!-- index.html main CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js">/*i dont remeber why this is here*/</script>
+</head>
+
+<body>
+
+
+
+  <!-- navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Profila</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item btn btn-primary p-0">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <!-- dropdown menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Profiles
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="profile.html?profile=profile1">Person 1</a></li>
+              <li><a class="dropdown-item" href="profile.html?profile=profile2">Person 2</a></li>
+              <li><a class="dropdown-item" href="profile.html?profile=profile3">Person 3</a></li>
+              <li><a class="dropdown-item" href="profile.html?profile=profile4">Person 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <!-- 4 card in grid -->
+  <main>
+    <div class="container-fluid">
+      <div class="row my-2">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/300x250/?male" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Person 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis sequi provident. Modi fugiat ea consequuntur accusamus incidunt atque, veritatis quae? Nulla aliquid fuga quia recusandae voluptatum a ex, reiciendis culpa dolorum odio deleniti exercitationem totam ipsam? Voluptas similique architecto laboriosam nostrum officia tenetur animi!</p>
+              <a href="profile.html?profile=profile1" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/300x250/?female" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Person 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis sequi provident. Modi fugiat ea consequuntur accusamus incidunt atque, veritatis quae? Nulla aliquid fuga quia recusandae voluptatum a ex, reiciendis culpa dolorum odio deleniti exercitationem totam ipsam? Voluptas similique architecto laboriosam nostrum officia tenetur animi!</p>
+              <a href="profile.html?profile=profile2" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/300x250/?child" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Person 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis sequi provident. Modi fugiat ea consequuntur accusamus incidunt atque, veritatis quae? Nulla aliquid fuga quia recusandae voluptatum a ex, reiciendis culpa dolorum odio deleniti exercitationem totam ipsam? Voluptas similique architecto laboriosam nostrum officia tenetur animi!</p>
+              <a href="profile.html?profile=profile3" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/300x250/?old" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Person 4</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis sequi provident. Modi fugiat ea consequuntur accusamus incidunt atque, veritatis quae? Nulla aliquid fuga quia recusandae voluptatum a ex, reiciendis culpa dolorum odio deleniti exercitationem totam ipsam? Voluptas similique architecto laboriosam nostrum officia tenetur animi!</p>
+              <a href="profile.html?profile=profile4" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- script because i dont want to make 4 pages -->
+  <script>
+    function redirectToProfile() {
+      var selectedProfile = document.getElementById("profileDropdown").value;
+      window.location.href = "profile.html?profile=" + selectedProfile;
+    }
+  </script>
+
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

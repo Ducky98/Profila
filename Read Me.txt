@@ -1,0 +1,11 @@
+Assignment 3: Bootstrap Module
+
+This project is exclusively built using the Bootstrap framework and JavaScript, without the application of any external CSS.
+
+The design prioritizes responsiveness, showcasing four cards per row on desktops, adjusting to two cards per row on tablets, and one card per row on mobile devices for an optimized viewing experience.
+
+Important Notes:
+
+Utilization of random images from Unsplash ensures the continuous alteration of card images.
+
+JavaScript is implemented for the dynamic generation of profile details, ensuring a dynamic and efficient approach while avoiding the creation of multiple pages.
